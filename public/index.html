@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev Hawks - Web Development, SEO, and UI/UX Design Agency</title>
+    <meta name="description"
+        content="Dev Hawks offers expert web development, UI/UX design, SEO, PPC, and business analysis services to help your business grow. Contact us for custom digital solutions." />
+    <meta name="keywords"
+        content="web development, UI/UX design, SEO services, PPC campaigns, business analysis, digital solutions, Dev Hawks" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Dev Hawks" />
+    <!-- <link rel="canonical" href="https://www.devhawks.com/" /> -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png" />
+
+    <!-- Open Graph Tags -->
+    <!-- <meta property="og:title" content="Dev Hawks - Web Development & Digital Solutions" />
+    <meta property="og:description"
+        content="Transform your business with Dev Hawks' web development, UI/UX design, SEO, and PPC services. Explore our portfolio and contact us today." />
+    <meta property="og:image" content="https://www.devhawks.com/images/seo-bg.jpg" />
+    <meta property="og:url" content="https://www.devhawks.com/" />
+    <meta property="og:type" content="website" /> -->
+
+    <!-- Twitter Card Tags -->
+    <!-- <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Dev Hawks - Web Development & Digital Solutions" />
+    <meta name="twitter:description"
+        content="Transform your business with Dev Hawks' web development, UI/UX design, SEO, and PPC services. Explore our portfolio and contact us today." />
+    <meta name="twitter:image" content="https://www.devhawks.com/images/seo-bg.jpg" /> -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Schema Markup -->
+    <!-- <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Dev Hawks",
+        "url": "https://www.devhawks.com",
+        "logo": "https://www.devhawks.com/images/logo.jpg",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+905010014760",
+            "contactType": "customer service",
+            "areaServed": "US",
+            "availableLanguage": "English"
+        },
+    }
+    </script> -->
+    <!-- <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Dev Hawks - Web Development Agency",
+        "url": "https://www.devhawks.com/",
+        "description": "Dev Hawks provides professional web development, UI/UX design, SEO, PPC, and business analysis services to help businesses succeed online.",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Dev Hawks"
+        }
+    }
+    </script> -->
+
+    <script>
+        window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
+</head>
+
+<body>
+
+    <!-- Loading Screen -->
+    <!-- <div class="loading-screen" id="loadingScreen">
+        <div class="loader"></div>
+    </div> -->
+
+    <!-- Popup for Form Submission -->
+    <div class="overlay" id="popupOverlay"></div>
+    <div class="popup" id="formPopup">
+        <h3>Thank You!</h3>
+        <p>Your message has been successfully sent. We'll get back to you soon!</p>
+        <button onclick="closePopup()">Close</button>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="/" aria-label="Dev Hawks Home">
+                    <img src="images/logo.jpg" alt="Dev Hawks Web Development Agency Logo" />
+                </a>
+            </div>
+            <button class="hamburger" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav">
+                <a href="/#hero" rel="nofollow">Home</a>
+                <a href="/#services" rel="nofollow">Services</a>
+                <a href="/portfolio" rel="follow">Portfolio</a>
+                <a href="/#contact" rel="nofollow">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Grow Your Business with Dev Hawks</h1>
+                <p>
+                    We provide web development, design, SEO/PPC promotion, <br>
+                    and business
+                    analysis to help your business thrive.
+                </p>
+                <a href="#contact" class="btn btn-hero">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="section section-alt">
+        <h2 class="section-title">Our Vision</h2>
+        <div class="about-content">
+            <p>
+                At <strong>Dev Hawks</strong>, we empower businesses with innovative web development, UI/UX design, and
+                digital marketing solutions to achieve their goals.
+            </p>
+            <p>
+                Website or app from <strong>Dev Hawks</strong> is more than a digital presence—it’s a dynamic platform
+                that evolves with your
+                business vision.
+            </p>
+            <p>
+                In a rapidly changing market, partnering with a reliable technology provider is essential to stay
+                competitive.
+            </p>
+            <p>
+                <strong>Dev Hawks</strong> delivers custom web applications and SEO strategies that optimize operations
+                and unlock your business’s potential.
+            </p>
+            <p>
+                From concept to completion, we provide end-to-end digital solutions. Let’s build your success together.
+            </p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <h2 class="section-title">Our Services</h2>
+        <div class="services-container">
+            <div id="service-1" class="service">
+                <h3>Custom Web Development</h3>
+                <p>Develop responsive landing pages and multi-page websites optimized for performance, scalability, and
+                    timely delivery.</p>
+            </div>
+            <div id="service-2" class="service">
+                <h3>UI/UX Design Services</h3>
+                <p>Create visually stunning and intuitive user interfaces to enhance user experience and engagement.</p>
+            </div>
+            <div id="service-3" class="service">
+                <h3>SEO & PPC Marketing</h3>
+                <p>Drive traffic and conversions with expert SEO strategies and targeted PPC campaigns tailored to your
+                    business.</p>
+            </div>
+            <div id="service-4" class="service">
+                <h3>Business Analysis Consulting</h3>
+                <p>Leverage in-depth analysis to identify opportunities and optimize your business processes for growth.
+                </p>
+            </div>
+        </div>
+        <div>
+            <p style="text-align: center; margin-top: 50px; margin-bottom: 40px; font-size: 18px;">
+                Ready to elevate your business? Contact us to discuss your web development or SEO project!
+            </p>
+            <div style="text-align: center; margin-top: 10px;">
+                <a href="#contact" class="btn">Schedule a Consultation</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services-timelines" class="section">
+        <h2 class="section-title">Our Services and Timelines</h2>
+        <div class="services-timelines-table-container">
+            <table class="services-timelines-table">
+                <thead>
+                    <tr>
+                        <th>Service Name</th>
+                        <th>Description</th>
+                        <th>Project Timeline</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Simple Business Card Website</strong></td>
+                        <td>1–4 pages with basic design and contact information, no advanced functionality.</td>
+                        <td>1–3 weeks</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Small Business Website</strong></td>
+                        <td>4–10 pages with forms, a blog, and SEO optimization for better visibility.</td>
+                        <td>4–8 weeks</td>
+                    </tr>
+                    <tr>
+                        <td><strong>E-Commerce (Online Store)</strong></td>
+                        <td>Product catalog, shopping cart, payment gateways, and third-party integrations.</td>
+                        <td>8–16 weeks</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Complex Corporate Website</strong></td>
+                        <td>Custom design, API integrations, CRM systems, and advanced analytics.</td>
+                        <td>3–6 months</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section id="technologies" class="section">
+        <h2 class="section-title">Technologies We Use</h2>
+        <div class="tech-grid">
+            <div class="tech-item">
+                <img loading="lazy" src="images/html-css.png" alt="HTML5 and CSS3 for Web Development" />
+                <p>HTML / CSS</p>
+            </div>
+            <div class="tech-item">
+                <img loading="lazy" src="images/javascript.png" alt="JavaScript for Interactive Websites" />
+                <p>JavaScript</p>
+            </div>
+            <div class="tech-item">
+                <img loading="lazy" src="images/python.png" alt="Python for Backend Development" />
+                <p>Python</p>
+            </div>
+            <div class="tech-item">
+                <img loading="lazy" src="images/react.png" alt="React for Dynamic Web Applications" />
+                <p>React</p>
+            </div>
+            <div class="tech-item">
+                <img loading="lazy" src="images/react.png" alt="React Native for Mobile App Development" />
+                <p>React Native</p>
+            </div>
+            <div class="tech-item">
+                <img loading="lazy" src="images/next.png" alt="Next.js for Server-Side Rendering" />
+                <p>Next.js</p>
+            </div>
+            <div class="tech-item">
+                <img loading="lazy" src="images/vue.png" alt="Vue.js for Flexible Web Development" />
+                <p>Vue.js</p>
+            </div>
+            <div class="tech-item">
+                <img loading="lazy" src="images/node.png" alt="Node.js for Scalable Backend Solutions" />
+                <p>Node.js</p>
+            </div>
+            <div class="tech-item">
+                <img loading="lazy" src="images/mongodb.png" alt="MongoDB for NoSQL Database Solutions" />
+                <p>MongoDB</p>
+            </div>
+            <div class="tech-item">
+                <img loading="lazy" src="images/postgresql.png" alt="PostgreSQL for Relational Database Management" />
+                <p>PostgreSQL</p>
+            </div>
+            <div class="tech-item">
+                <img loading="lazy" src="images/firebase.png" alt="Firebase for Real-Time App Development" />
+                <p>Firebase</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio-main" class="section portfolio-section">
+        <h2 class="section-title">Our Web Development Portfolio</h2>
+        <div class="portfolio-description">
+            <p>Discover our portfolio of professional web development and digital marketing projects at Dev Hawks. We
+                deliver tailored websites and applications designed to drive business growth. Visit our portfolio page
+                to explore our expertise in action.</p>
+        </div>
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="portfolio.html" class="btn">View Full Portfolio</a>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team">
+        <h2 class="section-title">Meet Our Expert Team</h2>
+        <div class="team-container">
+            <div class="team-member">
+                <img loading="lazy" src="images/andrey-telnov-photo.jpg" alt="Andrey Telnov, CEO and Founder of Dev Hawks" />
+                <h3>Andrey Telnov</h3>
+                <p>CEO & Founder</p>
+            </div>
+            <div class="team-member">
+                <img loading="lazy" src="images/taisia-telnova-photo.jpg" alt="Taisia Telnova, Lead Business Analyst at Dev Hawks" />
+                <h3>Taisia Telnova</h3>
+                <p>Business Analyst</p>
+            </div>
+            <div class="team-member">
+                <img loading="lazy" src="images/sergiy-popov-photo.png" alt="Sergiy, Senior Software Engineer at Dev Hawks" />
+                <h3>Sergiy Popov</h3>
+                <p>Software Engineer</p>
+            </div>
+            <div class="team-member">
+                <img loading="lazy" src="images/roman-kulichenko-photo.png"
+                    alt="Roman Kulichenko, Business Development Manager at Dev Hawks" />
+                <h3>Roman Kulichenko</h3>
+                <p>Business Development Manager</p>
+            </div>
+            <div class="team-member">
+                <img loading="lazy" src="images/sofiya-photo.png" alt="Sofiya, Lead UI/UX Designer at Dev Hawks" />
+                <h3>Sofiya</h3>
+                <p>Lead Designer</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section>
+        <h2 class="section-title">Why Partner with Dev Hawks</h2>
+        <div class="why-grid">
+            <div class="why-item">
+                <h3>Best Performance</h3>
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 122.88 122.88"
+                    style="enable-background:new 0 0 122.88 122.88" xml:space="preserve">
+                    <style type="text/css">
+                        .st0 {
+                            fill-rule: evenodd;
+                            clip-rule: evenodd;
+                        }
+                    </style>
+                    <g>
+                        <path class="st0"
+                            d="M61.44,0c33.93,0,61.44,27.51,61.44,61.44c0,33.93-27.51,61.44-61.44,61.44C27.51,122.88,0,95.37,0,61.44 C0,27.51,27.51,0,61.44,0L61.44,0z M52.92,30.52h7.51c1.37,0,2.5,1.13,2.5,2.5v28.94h26.41c1.38,0,2.5,1.13,2.5,2.5v7.51 c0,1.38-1.13,2.5-2.5,2.5H50.41V33.02C50.41,31.64,51.54,30.52,52.92,30.52L52.92,30.52z M61.44,13.95 c26.23,0,47.49,21.26,47.49,47.49c0,26.23-21.26,47.49-47.49,47.49c-26.23,0-47.49-21.26-47.49-47.49 C13.95,35.22,35.21,13.95,61.44,13.95L61.44,13.95z" />
+                    </g>
+                </svg>
+                <p>Delivering exceptional web development and SEO performance to ensure outstanding results for your
+                    business.</p>
+            </div>
+            <div class="why-item">
+                <h3>Dedicated Professionals</h3>
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 122.88 71.04"
+                    style="enable-background:new 0 0 122.88 71.04" xml:space="preserve">
+                    <style type="text/css">
+                        .st0 {
+                            fill-rule: evenodd;
+                            clip-rule: evenodd;
+                        }
+                    </style>
+                    <g>
+                        <path class="st0"
+                            d="M91.95,64.68l1.99-7.59l-1.37-1.5c-0.62-0.9-0.75-1.69-0.41-2.37c0.74-1.47,2.28-1.2,3.72-1.2 c1.51,0,3.37-0.29,3.84,1.6c0.16,0.63-0.04,1.29-0.48,1.97l-1.37,1.5l1.19,4.56l7.89-6.86l4.09,0.1c-1.41-2.83-3.2-5.23-5.28-7.49 c3.92,1.52,7.93,3.02,10.9,4.88c1.89,1.18,2.86,2.08,3.63,3.51c1.62,3.05,1.8,5.78,2.04,9.08l0.57,2.86h-22.24l0.02,0.07h-8.51 c-0.19,1.95-1.31,3.08-3.5,3.24H61.68H34.24c-2.2-0.17-3.32-1.3-3.5-3.27l0.76-12.04c0.21-2.78,0.99-4.98,2.26-6.66 c0.84-1.11,1.88-1.93,3.03-2.57c3.65-2.03,12.17-2.63,15.48-5.61l5.07,14.91l2.55-8.85l-1.25-1.37c-0.56-0.82-0.69-1.54-0.37-2.16 c0.68-1.34,2.08-1.09,3.39-1.09c1.37,0,3.06-0.26,3.49,1.46c0.14,0.57-0.04,1.17-0.44,1.79l-1.25,1.37l2.55,8.85l4.59-14.91 c3.31,2.98,11.84,3.58,15.48,5.61c1.15,0.64,2.2,1.46,3.03,2.57c1.27,1.68,2.05,3.87,2.26,6.66L91.95,64.68L91.95,64.68z M15.29,48.25l3.4,9.99l1.71-5.93l-0.84-0.92c-0.38-0.55-0.46-1.03-0.25-1.45c0.45-0.9,1.39-0.73,2.27-0.73 c0.92,0,2.05-0.17,2.34,0.98c0.1,0.38-0.03,0.79-0.29,1.2l-0.84,0.92l1.71,5.93l3.08-9.99c0.45,0.4,1.07,0.74,1.8,1.03 c-0.25,0.53-0.48,1.09-0.68,1.67c-0.52,1.51-0.86,3.19-1,5.06l0.01,0c0,0.04-0.01,0.09-0.01,0.13l-0.74,11.58h-5.35H2.35 C0.87,67.61,0.12,66.85,0,65.53l0.51-7.34c0.14-1.86,0.67-3.33,1.52-4.46c0.56-0.74,1.26-1.29,2.03-1.72 C6.5,50.65,13.07,50.25,15.29,48.25L15.29,48.25z M13.62,34.09c-0.33,0.03-0.58,0.1-0.76,0.22c-0.1,0.07-0.18,0.16-0.23,0.26 c-0.06,0.12-0.08,0.28-0.08,0.45c0.02,0.55,0.31,1.29,0.88,2.14l0.01,0.02l0,0l1.9,3.02c0.76,1.2,1.55,2.43,2.53,3.33 c0.93,0.85,2.06,1.43,3.56,1.43c1.62,0,2.8-0.6,3.77-1.5c1.01-0.95,1.81-2.25,2.60-3.55l2.13-3.51c0.43-0.98,0.56-1.57,0.42-1.85 c-0.09-0.17-0.44-0.22-1.02-0.17c-0.37,0.08-0.76,0.01-1.17-0.20l1.07-3.2c-3.91-0.05-6.58-0.73-9.75-2.75 c-1.04-0.66-1.35-1.42-2.39-1.35c-0.79,0.15-1.45,0.5-1.97,1.07c-0.50,0.54-0.88,1.28-1.13,2.23l0.63,3.83 C14.30,34.21,13.96,34.23,13.62,34.09L13.62,34.09z M30.55,33.14c0.46,0.14,0.8,0.4,1,0.81c0.32,0.65,0.2,1.62-0.41,3l0,0 c-0.01,0.03-0.02,0.05-0.04,0.08l-2.16,3.56c-0.84,1.38-1.69,2.76-2.83,3.83c-1.19,1.12-2.66,1.86-4.67,1.85 c-1.88,0-3.29-0.72-4.45-1.78c-1.11-1.02-1.96-2.32-2.76-3.60l-1.90-3.02c-0.71-1.06-1.07-2.02-1.10-2.82 c-0.01-0.39,0.05-0.74,0.20-1.04c0.15-0.33,0.38-0.60,0.70-0.81c0.15-0.10,0.33-0.19,0.52-0.26c-0.12-1.62-0.16-3.62-0.08-5.30 c0.04-0.41,0.12-0.82,0.23-1.23c0.49-1.73,1.70-3.13,3.21-4.09c0.53-0.34,1.11-0.62,1.73-0.84c3.65-1.32,8.48-0.60,11.07,2.20 c1.05,1.14,1.72,2.65,1.86,4.65L30.55,33.14L30.55,33.14z M49.65,19.77c-0.42,0.05-0.75,0.16-0.99,0.32 c-0.15,0.1-0.27,0.24-0.34,0.39c-0.08,0.18-0.12,0.41-0.12,0.67c0.02,0.83,0.46,1.92,1.32,3.18l0.02,0.02h0l2.83,4.51 c1.13,1.80,2.31,3.63,3.77,4.96c1.39,1.27,3.08,2.13,5.30,2.14c2.42,0.01,4.18-0.89,5.62-2.23c1.51-1.41,2.71-3.36,3.89-5.30 l3.18-5.24c0.64-1.46,0.84-2.34,0.63-2.76c-0.13-0.27-0.69-0.33-1.63-0.24c-0.07,0.01-0.14,0.01-0.21,0c-0.39,0-0.81-0.10-1.27-0.31 l1.43-4.78c-5.84-0.07-9.83-1.09-14.55-4.11c-1.55-0.99-2.02-2.12-3.57-2.01c-1.17,0.23-2.16,0.75-2.94,1.59 c-0.75,0.81-1.32,1.91-1.69,3.32l1.01,5.78C50.74,19.98,50.18,20,49.65,19.77L49.65,19.77z M75.05,18.34 c0.69,0.2,1.19,0.60,1.50,1.21c0.48,0.98,0.30,2.42-0.61,4.48l0,0c-0.02,0.04-0.04,0.08-0.06,0.11l-3.23,5.32 c-1.25,2.06-2.52,4.13-4.23,5.72c-1.78,1.67-3.97,2.78-6.97,2.77c-2.80-0.01-4.91-1.08-6.64-2.66c-1.66-1.52-2.92-3.46-4.12-5.37 l-2.83-4.51c-1.05-1.57-1.60-3.02-1.64-4.21c-0.02-0.58,0.08-1.10,0.30-1.56c0.23-0.49,0.57-0.90,1.04-1.21 c0.23-0.16,0.49-0.29,0.78-0.39c-0.17-2.41-0.23-5.39-0.12-7.90c0.06-0.61,0.18-1.22,0.35-1.83c0.72-2.59,2.54-4.67,4.79-6.10 c0.79-0.50,1.66-0.92,2.58-1.25c5.44-1.97,12.66-0.89,16.52,3.29c1.57,1.70,2.56,3.96,2.77,6.94L75.05,18.34L75.05,18.34z M84.88,42.96l2.50-0.07l2.07-0.05c-2.42-7.45-1.61-14.30,4.22-20.12c0.99,3.20,3.20,5.83,6.97,7.78c1.80,1.34,3.55,2.96,5.23,4.81 c0.3-1.23-0.84-2.73-2.23-4.27c1.28,0.63,2.46,1.52,3.29,3.22c0.97,1.98,0.95,3.64,0.64,5.79c-0.15,1-0.39,1.93-0.74,2.78h3.45 c3.64-7.79,1.33-19.34-6.11-24.24c-2.28-1.50-3.92-1.45-6.60-1.44c-3.07,0-4.63,0.10-7.26,1.83c-3.87,2.56-6.25,6.99-7.25,13.14 C82.87,35.19,82.74,40.49,84.88,42.96L84.88,42.96z" />
+                    </g>
+                </svg>
+                <p>Our team of experts is committed to delivering tailored web and SEO solutions with precision and
+                    dedication.</p>
+            </div>
+            <div class="why-item">
+                <h3>On Time Delivery</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision"
+                    text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd"
+                    clip-rule="evenodd" viewBox="0 0 412 511.56">
+                    <path fill-rule="nonzero"
+                        d="M32.24 0h229.59a9.06 9.06 0 016.77 3.04l140.63 136.27a8.971 8.971 0 012.74 6.48h.03V479.32c0 8.83-3.63 16.88-9.47 22.74l-.05.05c-5.86 5.83-13.9 9.45-22.72 9.45H32.24c-8.87 0-16.94-3.63-22.78-9.47C3.63 496.26 0 488.19 0 479.32V32.24C0 23.37 3.63 15.3 9.46 9.46 15.3 3.63 23.37 0 32.24 0zm56.24 414.35c-5.01 0-9.08-4.06-9.08-9.07 0-5.01 4.07-9.08 9.08-9.08h235.04c5.01 0 9.07 4.07 9.07 9.08s-4.06 9.07-9.07 9.07H88.48zm0-74.22c-5.01 0-9.08-4.06-9.08-9.07 0-5.01 4.07-9.08 9.08-9.08h231.38c5.01 0 9.08 4.07 9.08 9.08s-4.07 9.07-9.08 9.07H88.48zm0-74.22c-5.01 0-9.08-4.07-9.08-9.08s4.07-9.07 9.08-9.07H275.7c5.01 0 9.08 4.06 9.08 9.07 0 5.01-4.07 9.08-9.08 9.08H88.48zm0-74.23c-5.01 0-9.08-4.06-9.08-9.07 0-5.01 4.07-9.08 9.08-9.08h114.45c5.01 0 9.07 4.07 9.07 9.08s-4.06 9.07-9.07 9.07H88.48zm0-74.22c-5.01 0-9.08-4.06-9.08-9.07a9.08 9.08 0 019.08-9.08h56.29a9.08 9.08 0 019.08 9.08c0 5.01-4.07 9.07-9.08 9.07H88.48zm176.37-92.85v114.4h118.07L264.85 24.61zm129 132.55H255.78c-5.01 0-9.08-4.07-9.08-9.08V18.15H32.24c-3.86 0-7.39 1.59-9.95 4.15-2.55 2.55-4.14 6.08-4.14 9.94v447.08c0 3.86 1.59 7.39 4.14 9.94 2.56 2.56 6.09 4.15 9.95 4.15h347.52c3.89 0 7.41-1.58 9.94-4.11l.04-.04c2.53-2.53 4.11-6.05 4.11-9.94V157.16z" />
+                </svg>
+                <p>Timely and reliable project delivery to support your business operations with confidence.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="contact-container">
+            <div>
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                </div>
+
+                <div class="contact-buttons">
+                    <a href="https://wa.me/905010014760" class="whatsapp-btn">
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M12.04 2.01C6.58 2.01 2.15 6.44 2.15 11.9c0 1.77.46 3.48 1.32 4.95L2.03 22l5.27-1.44c1.4.78 2.97 1.2 4.63 1.2h.01c5.46 0 9.89-4.43 9.9-9.89.01-5.46-4.42-9.89-9.89-9.89zM17.5 14.3c-.28-.14-1.62-.8-1.87-.89-.25-.09-.43-.14-.61.14-.18.28-.71.89-.87 1.07-.16.18-.32.2-.59.06-.28-.14-1.17-.43-2.23-1.38-.83-.74-1.39-1.65-1.55-1.92-.16-.28-.02-.43.12-.57.13-.13.28-.32.43-.49.14-.16.19-.28.28-.46.09-.18.05-.34 0-.48-.05-.14-.61-1.47-.83-2.01-.22-.54-.45-.47-.61-.47h-.52c-.18 0-.46.05-.7.28-.25.23-.96.93-.96 2.27 0 1.34.99 2.63 1.13 2.81.14.18 1.96 3 4.75 4.19.68.29 1.22.46 1.64.59.73.22 1.4.19 1.93.11.59-.08 1.62-.66 1.85-1.3.23-.63.23-1.17.16-1.3-.09-.12-.25-.2-.53-.34z" />
+                        </svg>
+                        <span>Write to WhatsApp</span>
+                    </a>
+                    <br>
+                    <a href="https://t.me/+905010014760" class="telegram-btn">
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M9.78 18.65l.28-4.23l7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3L3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.58c-.21 1.15-1.21 1.36-2.03.85l-4.88-3.58l-2.32 2.23c-.25.27-.47.48-.97.48z" />
+                        </svg>
+                        <span>Write to Telegram</span>
+                    </a>
+                </div>
+            </div>
+
+            <form id="contactForm" action="/submit-form" method="post" class="contact-form">
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" name="fullName" required aria-required="true" />
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required aria-required="true" />
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required aria-required="true" />
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" required aria-required="true"></textarea>
+                <input type="hidden" id="website" name="website" value="" />
+                <button type="submit" class="btn">Submit Inquiry</button>
+            </form>
+        </div>
+    </section>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const nav = document.querySelector('.nav');
+
+        hamburger.addEventListener('click', () => {
+            nav.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        });
+    </script>
+
+
+    <script>
+        // Form Submission Handling
+        const contactForm = document.getElementById('contactForm');
+        const popup = document.getElementById('formPopup');
+        const popupOverlay = document.getElementById('popupOverlay');
+
+        function showPopup(message = "Your message has been successfully sent. We'll get back to you soon!") {
+            popup.querySelector('p').textContent = message;
+            popup.classList.add('show');
+            popupOverlay.classList.add('show');
+        }
+
+        function closePopup() {
+            popup.classList.remove('show');
+            popupOverlay.classList.remove('show');
+        }
+
+        contactForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            // Собираем данные в обычный объект
+            const formData = new FormData(contactForm);
+            const data = Object.fromEntries(formData.entries());
+
+            const submitButton = contactForm.querySelector('button[type="submit"]');
+            submitButton.disabled = true;
+
+            try {
+                const response = await fetch('/submit-form', {
+                    method: 'POST',
+                    // Отправляем JSON и устанавливаем заголовок Content-Type
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json'
+                    },
+                    body: JSON.stringify(data)
+                });
+
+                const result = await response.json();
+
+                if (response.ok && result.success) {
+                    contactForm.reset();
+                    showPopup();
+                } else {
+                    showPopup(result.message || 'Something went wrong. Please try again later.');
+                }
+            } catch (error) {
+                showPopup('Network error. Please check your connection and try again.');
+            } finally {
+                submitButton.disabled = false;
+            }
+        });
+    </script>
+
+    <script>
+        const formVisibleEvent = new Event("contactFormVisible");
+
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting && entry.intersectionRatio > 0.5) {
+                    document.dispatchEvent(formVisibleEvent);
+                    observer.unobserve(contactForm);
+                }
+            });
+        }, {
+            threshold: [0.5]
+        });
+
+        observer.observe(contactForm);
+
+        document.addEventListener("contactFormVisible", () => {
+            fetch("/track-event", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    page: window.location.href
+                })
+            }).catch(err => console.error("Tracking error:", err));
+        });
+    </script>
+</body>
+
+</html>
